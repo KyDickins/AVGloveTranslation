@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style_v1.1.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://pagecdn.io/lib/mathjs/11.0.1/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
+    <script src ="DataSheet_Updated.js"></script>
+    
+
+
+</head>
+
+<body>
+
+        <select id="Tool" name="Tool" class="p1">
+        
+        <option>--Please Select a Tool--</option>
+        <option value="Tool1">S1T1, Drill</option>
+        <option value="Tool2">S1T2, Rivet Gun</option>
+        <option value="Tool3">S2T1, Trapezoidal Bucking Bar</option>
+        <option value="Tool4">S2T2, L Shape Bucking Bar</option>
+        <option value="Tool5">S3T1, Cherry Max Gun</option>
+        <option value="Tool6">S3T2, Cherry Gun</option>
+        <option value="Tool7">S3T3, Hilock Gun</option>
+        <option value="Tool8">S3T4, Terry Motor</option>
+        <option value="Tool9">S3T5, Rivet Gun</option>
+        <option value="Tool10">S4T1, Duck Foot Bucking Bar</option>
+        <option value="Tool11">S6T1, Rivet Gun</option>
+        <option value="Tool12">S7T1, Angle Grinder</option>
+        <option value="Tool13">S7T2, Pencil Grinder</option>
+        <option value="Tool14">S7T3, Die Grinder</option>
+        <option value="Tool15">S8T1, Shear Gun</option>
+        <option value="Tool16">S9T1, Rivet Gun</option>
+        <option value="Tool17">S10T1, Foot Bucking Bar</option>
+        <option value="Tool18">S11T1, Clunky Hook Bucking Bar</option>
+        <option value="Tool19">S12T1, Tungsten Trapezoidal</option>
+        <option value="Tool20">S13T1, Riveter</option>
+        <option value="Tool21">S13T1, Bucking Bar</option>
+        <option value="Tool22">S1T1, Straight Nut Runner</option>
+        <option value="Tool23">S2T1, Skid Bolt</option>
+        <option value="Tool24">S3T1, NutRunner Lower Hinge</option>
+        <option value="Tool25">S3T2, NetRunner Center Hinge</option>
+        <option value="Tool26">S4T1, ARO Gun</option>
+        <option value="Tool27">S5T1, Pistol Screw Gun</option>
+        <option value="Tool28">S6T1, Air Hammer</option>
+        <option value="Tool29">S6T2, Screw Gun</option>
+        <option value="Tool30">S6T3, Angle NutRunner</option>
+        <option value="Tool31">S3T1, Damper Gun</option>
+        <option value="Tool32">S7T2, Palm Hammer</option>
+
+
+
+    </select>
+   
+
+    <select id="Glove" name="Glove" class="p1">
+        <option>--Please Select a Glove--</option>
+        <option value="Glove1">Impacto, BG413A</option>
+        <option value="Glove2">Impacto, BG650A</option>
+        <option value="Glove3">Impacto, BlackMaxx Pro</option>
+        <option value="Glove4">Camelbak, Impact CT</option>
+        <option value="Glove5">Ansell, HyFlex 11-500</option>
+        <option value="Glove6">Ansel, HyFlex 11-511</option>
+        <option value="Glove7">Ansell, HyFlex 11-624</option>
+        <option value="Glove8">Ergodyne, Proflex 9002</option>
+        <option value="Glove9">Ergodyne, Proflex 900</option>
+    </select>
+    
+    <input type="button" value = "Estimate" onclick="Data()" class="p2">
+
+<div class="grid-container">
+        <div class="item_large">
+            <canvas id="Chart1"></canvas>
+        </div>
+        
+            
+        <div class="item_tr">
+            <canvas id="Chart2"></canvas>
+        </div>
+
+        <div class="item_tr">
+            <canvas id="Chart4"></canvas>
+        </div>
+      
+        <div class="item_br">
+            <canvas id="Chart3"></canvas>
+        </div>
+        <div class="item_br">
+            <canvas id="Chart5"></canvas>
+        </div>
+      </div>
+</body>
+
+</html>

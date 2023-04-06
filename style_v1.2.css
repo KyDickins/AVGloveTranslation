@@ -4,13 +4,13 @@
   grid-auto-columns: minmax(0, .25fr);
   grid-auto-flow: row;
   gap: .5em;
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(255, 255, 255);
   padding: .5em;
 }
 
 
 .grid-container>* {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   padding: .1em 0;
   font-size: 25px;
@@ -21,7 +21,7 @@
   grid-column: 1/16;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(32, 32, 32);
+  border: 10px solid rgb(255, 50, 50);
   }
 
 .item1 {
@@ -29,7 +29,7 @@
   grid-column: 16/32;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(32, 32, 32);
+  border: 10px solid rgb(255, 50, 50);
 }
 
 .item2 {
@@ -37,7 +37,7 @@
   grid-column: 32/48;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(32, 32, 32);
+  border: 10px solid rgb(255, 50, 50);
 }
 
 .item3 {
@@ -45,7 +45,7 @@
   grid-column: 16/32;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(32, 32, 32);
+  border: 10px solid rgb(255, 50, 50);
 }
 
 .item4 {
@@ -53,7 +53,7 @@
   grid-column: 32/48;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(32, 32, 32);
+  border: 10px solid rgb(255, 50, 50);
 }
 
 
@@ -62,7 +62,7 @@
   grid-column: 24/30;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .item_math_estimation2 {
@@ -70,7 +70,7 @@
   grid-column: 30/36;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .item_math_estimation3 {
@@ -78,7 +78,7 @@
   grid-column: 36/42;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .item_math_estimation4 {
@@ -86,7 +86,7 @@
   grid-column: 42/48;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .item_math_tool1 {
@@ -94,7 +94,7 @@
   grid-column: 1/11;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .item_math_tool2 {
@@ -102,7 +102,7 @@
   grid-column: 11/24;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(32, 32, 32);
+  border-top: 10px solid rgb(255, 50, 50);
 }
 
 .p1 {
@@ -135,10 +135,10 @@
   height: 3vw;
   font-size: 1.5vw;
   color: rgb(110, 110, 110);
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(255, 255, 255);
   inline-size: 10vw;
   font-family: "Arial, Helvetica, sans-serif";
-  border: 1px solid rgb(26, 26, 26);
+  border: 1px solid rgb(255, 255, 255);
   float: center;
 }
 

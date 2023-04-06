@@ -1,10 +1,10 @@
 .grid-container {
   display: grid;
-  grid-auto-rows: minmax(0, 1fr);
+  grid-auto-rows: minmax(0, .25fr);
   grid-auto-columns: minmax(0, .25fr);
   grid-auto-flow: row;
   gap: .5em;
-  background-color: #5e3737;
+  background-color: rgb(26, 26, 26);
   padding: .5em;
 }
 
@@ -14,85 +14,95 @@
   text-align: center;
   padding: .1em 0;
   font-size: 25px;
-
 }
 
 .item_large {
-  grid-row: 1/3;
+  grid-row: 3/9;
   grid-column: 1/16;
   height: 100%;
   width: 100%;
-}
+  border: 10px solid rgb(32, 32, 32);
+  }
 
 .item1 {
-  grid-row: 1/2;
+  grid-row: 1/6;
   grid-column: 16/32;
   height: 100%;
-  width: 100%
+  width: 100%;
+  border: 10px solid rgb(32, 32, 32);
 }
 
 .item2 {
-  grid-row: 1/2;
+  grid-row: 1/6;
   grid-column: 32/48;
   height: 100%;
-  width: 100%
+  width: 100%;
+  border: 10px solid rgb(32, 32, 32);
 }
 
 .item3 {
-  grid-row: 2/3;
+  grid-row: 6/12;
   grid-column: 16/32;
   height: 100%;
-  width: 100%
+  width: 100%;
+  border: 10px solid rgb(32, 32, 32);
 }
 
 .item4 {
-  grid-row: 2/3;
+  grid-row: 6/12;
   grid-column: 32/48;
   height: 100%;
-  width: 100%
+  width: 100%;
+  border: 10px solid rgb(32, 32, 32);
 }
 
 
 .item_math_estimation1 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 24/30;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_estimation2 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 30/36;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_estimation3 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 36/42;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_estimation4 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 42/48;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_tool1 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 1/12;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_tool2 {
-  grid-row: 3/4;
+  grid-row: 12/16;
   grid-column: 12/24;
   height: 100%;
   width: 100%;
+  border-top: 10px solid rgb(32, 32, 32);
 }
 
 .p1 {
@@ -129,6 +139,6 @@
   inline-size: 10vw;
   font-family: "Arial, Helvetica, sans-serif";
   border: 1px solid rgb(26, 26, 26);
-  margin: 0px;
   float: center;
 }
+

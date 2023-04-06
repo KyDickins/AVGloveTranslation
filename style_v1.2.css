@@ -4,13 +4,13 @@
   grid-auto-columns: minmax(0, .25fr);
   grid-auto-flow: row;
   gap: .5em;
-  background-color: #ff0000;
+  background-color: #5e3737;
   padding: .5em;
 }
 
 
 .grid-container>* {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(26, 26, 26);
   text-align: center;
   padding: .1em 0;
   font-size: 25px;
@@ -99,7 +99,7 @@
   font-family: "Arial, Helvetica, sans-serif";
   float: center;
   font-size: 1.25vw;
-  color: rgb(255, 0, 0);
+  color: rgb(110, 110, 110);
   inline-size: 20vw;
   word-break: break-word;
 }
@@ -108,7 +108,7 @@
   font-family: "Arial, Helvetica, sans-serif";
   float: center;
   font-size: 1.5vw;
-  color: rgb(0, 0, 0);
+  color: rgb(110, 110, 110);
   inline-size: 7.5vw;
 }
 
@@ -116,7 +116,7 @@
   font-family: "Arial, Helvetica, sans-serif";
   float: left;
   font-size: 1.1vw;
-  color: rgb(0, 0, 0);
+  color: rgb(110, 110, 110);
   inline-size: 7.5vw;
 }
 
@@ -124,10 +124,11 @@
   outline: none;
   height: 3vw;
   font-size: 1.5vw;
-  color: rgb(0, 0, 0);
+  color: rgb(110, 110, 110);
+  background-color: rgb(26, 26, 26);
   inline-size: 10vw;
   font-family: "Arial, Helvetica, sans-serif";
-  border: 1px solid rgb(255, 0, 0);
+  border: 1px solid rgb(26, 26, 26);
   margin: 0px;
   float: center;
 }

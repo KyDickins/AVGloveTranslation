@@ -17,7 +17,7 @@
 }
 
 .item_large {
-  grid-row: 3/9;
+  grid-row: 3/8;
   grid-column: 1/16;
   height: 100%;
   width: 100%;
@@ -41,7 +41,7 @@
 }
 
 .item3 {
-  grid-row: 6/12;
+  grid-row: 6/11;
   grid-column: 16/32;
   height: 100%;
   width: 100%;
@@ -49,7 +49,7 @@
 }
 
 .item4 {
-  grid-row: 6/12;
+  grid-row: 6/11;
   grid-column: 32/48;
   height: 100%;
   width: 100%;
@@ -58,7 +58,7 @@
 
 
 .item_math_estimation1 {
-  grid-row: 12/16;
+  grid-row: 11/15;
   grid-column: 24/30;
   height: 100%;
   width: 100%;
@@ -66,7 +66,7 @@
 }
 
 .item_math_estimation2 {
-  grid-row: 12/16;
+  grid-row: 11/15;
   grid-column: 30/36;
   height: 100%;
   width: 100%;
@@ -74,7 +74,7 @@
 }
 
 .item_math_estimation3 {
-  grid-row: 12/16;
+  grid-row: 11/15;
   grid-column: 36/42;
   height: 100%;
   width: 100%;
@@ -82,7 +82,7 @@
 }
 
 .item_math_estimation4 {
-  grid-row: 12/16;
+  grid-row: 11/15;
   grid-column: 42/48;
   height: 100%;
   width: 100%;
@@ -90,16 +90,16 @@
 }
 
 .item_math_tool1 {
-  grid-row: 12/16;
-  grid-column: 1/12;
+  grid-row: 11/15;
+  grid-column: 1/11;
   height: 100%;
   width: 100%;
   border-top: 10px solid rgb(32, 32, 32);
 }
 
 .item_math_tool2 {
-  grid-row: 12/16;
-  grid-column: 12/24;
+  grid-row: 11/15;
+  grid-column: 11/24;
   height: 100%;
   width: 100%;
   border-top: 10px solid rgb(32, 32, 32);

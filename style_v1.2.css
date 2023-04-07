@@ -21,15 +21,15 @@
   grid-column: 1/16;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(255, 50, 50);
-  }
+
+}
 
 .item1 {
   grid-row: 1/6;
   grid-column: 16/32;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(255, 50, 50);
+
 }
 
 .item2 {
@@ -37,7 +37,7 @@
   grid-column: 32/48;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(255, 50, 50);
+
 }
 
 .item3 {
@@ -45,7 +45,7 @@
   grid-column: 16/32;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(255, 50, 50);
+
 }
 
 .item4 {
@@ -53,7 +53,7 @@
   grid-column: 32/48;
   height: 100%;
   width: 100%;
-  border: 10px solid rgb(255, 50, 50);
+
 }
 
 
@@ -62,7 +62,7 @@
   grid-column: 24/30;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .item_math_estimation2 {
@@ -70,7 +70,7 @@
   grid-column: 30/36;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .item_math_estimation3 {
@@ -78,7 +78,7 @@
   grid-column: 36/42;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .item_math_estimation4 {
@@ -86,7 +86,7 @@
   grid-column: 42/48;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .item_math_tool1 {
@@ -94,7 +94,7 @@
   grid-column: 1/11;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .item_math_tool2 {
@@ -102,43 +102,55 @@
   grid-column: 11/24;
   height: 100%;
   width: 100%;
-  border-top: 10px solid rgb(255, 50, 50);
+
 }
 
 .p1 {
-  font-family: "Arial, Helvetica, sans-serif";
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
   float: center;
   font-size: 1.25vw;
-  color: rgb(110, 110, 110);
+  color: rgb(0, 0, 0);
   inline-size: 20vw;
   word-break: break-word;
+  text-align: center;
 }
 
 .p2 {
-  font-family: "Arial, Helvetica, sans-serif";
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
   float: center;
   font-size: 1.5vw;
-  color: rgb(110, 110, 110);
+  color: rgb(0, 0, 0);
   inline-size: 7.5vw;
+  text-align: center;
 }
 
 .p3 {
-  font-family: "Arial, Helvetica, sans-serif";
-  float: left;
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
+  float: center;
   font-size: 1.1vw;
-  color: rgb(110, 110, 110);
-  inline-size: 7.5vw;
+  color: rgb(0, 0, 0);
+  inline-size: 10vw;
+  text-align: left;
 }
 
 .box {
   outline: none;
   height: 3vw;
   font-size: 1.5vw;
-  color: rgb(110, 110, 110);
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   inline-size: 10vw;
-  font-family: "Arial, Helvetica, sans-serif";
-  border: 1px solid rgb(255, 255, 255);
-  float: center;
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
+  border: 1px solid rgb(255, 0, 0);
+  float: left;
+  text-align: center;
+  
 }
-

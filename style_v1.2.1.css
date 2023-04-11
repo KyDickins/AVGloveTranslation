@@ -1,0 +1,156 @@
+.grid-container {
+  display: grid;
+  grid-auto-rows: minmax(0, .25fr);
+  grid-auto-columns: minmax(0, .25fr);
+  grid-auto-flow: row;
+  gap: .5em;
+  background-color: rgb(255, 255, 255);
+  padding: .5em;
+}
+
+
+.grid-container>* {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: .1em 0;
+  font-size: 25px;
+}
+
+.item_large {
+  grid-row: 3/8;
+  grid-column: 1/16;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item1 {
+  grid-row: 1/6;
+  grid-column: 16/32;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item2 {
+  grid-row: 1/6;
+  grid-column: 32/48;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item3 {
+  grid-row: 6/11;
+  grid-column: 16/32;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item4 {
+  grid-row: 6/11;
+  grid-column: 32/48;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.item_math_estimation1 {
+  grid-row: 11/15;
+  grid-column: 24/30;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item_math_estimation2 {
+  grid-row: 11/15;
+  grid-column: 30/36;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item_math_estimation3 {
+  grid-row: 11/15;
+  grid-column: 36/42;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item_math_estimation4 {
+  grid-row: 11/15;
+  grid-column: 42/48;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item_math_tool1 {
+  grid-row: 11/15;
+  grid-column: 1/11;
+  height: 100%;
+  width: 100%;
+
+}
+
+.item_math_tool2 {
+  grid-row: 11/15;
+  grid-column: 11/24;
+  height: 100%;
+  width: 100%;
+
+}
+
+.p1 {
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
+  float: center;
+  font-size: 1.25vw;
+  color: rgb(0, 0, 0);
+  inline-size: 20vw;
+  word-break: break-word;
+  text-align: center;
+}
+
+.p2 {
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
+  float: center;
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+  inline-size: 7.5vw;
+  text-align: center;
+}
+
+.p3 {
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: "bolder";
+  color: 'black';
+  float: center;
+  font-size: 1.1vw;
+  color: rgb(0, 0, 0);
+  inline-size: 10vw;
+  text-align: left;
+}
+
+.box {
+  outline: none;
+  height: 3vw;
+  font-size: 1.7vw;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  inline-size: 10vw;
+  font-family: "'Times New Roman', Times, serif";
+  font-weight: 1000;
+  color: 'black';
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  text-align: center;
+  
+}
